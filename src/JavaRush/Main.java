@@ -10,7 +10,7 @@ public class Main {
 //            System.out.pr
         while (i < 10) {
             j = 0;
-            System.out.print("Б");
+            System.out.print("|||");
             while (j < 18) {
                 if (i == 0 || i == 9) {
                     System.out.print("Б");
