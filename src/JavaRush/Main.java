@@ -14,6 +14,7 @@ public class Main {
             min2 = min;
             min = temp;
         }
+
         int x;
 //        int i = 0;
 
