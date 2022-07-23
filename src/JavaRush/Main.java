@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //напишите тут ваш код
-        int i=1;
-        int sum=0;
-        while (i<=100) {
-            i++;
-            if (i%3==0)
-                continue;
-            sum+=i;
+        Scanner in = new Scanner(System.in);
+        int min = Integer.MAX_VALUE;
+        int x;
+        while (in.hasNextInt()) {
+            x = in.nextInt();
+            if (min > x) min = x;
         }
-        System.out.println(sum);
+        if (in.nextLine().length() == 1) System.out.println(Integer.MAX_VALUE);
+        else System.out.println(min);
     }
 }
