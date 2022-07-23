@@ -12,6 +12,7 @@ public class Main {
         int maxOut=max;
         int x;
 
+
         while (in.hasNextInt()) {
             x = in.nextInt();
             if(x%2==0){
